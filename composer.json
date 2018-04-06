@@ -1,0 +1,22 @@
+{
+    "require": {
+    	"silex/silex": "^2.0.4",
+	    "monolog/monolog": "^1.22",
+	    "twig/twig": "^2.0",
+	    "symfony/twig-bridge": "^3",
+        "catfan/medoo": "^1.5",
+        "altorouter/altorouter": "1.1.0",
+        "alrik11es/cowsayphp": "^1.2",
+        "vlucas/phpdotenv": "^2.4"
+    },
+
+    "require-dev": {
+    	"heroku/heroku-buildpack-php": "*"
+	},
+
+    "autoload": {
+    	"psr-4": {
+    		"Hacklab\\": "src/hack/"
+    	}
+    }
+}
